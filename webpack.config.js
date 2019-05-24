@@ -15,14 +15,9 @@ module.exports = {
   module: {
     rules: [
       {
-        enforce: 'pre',
-        test: /\.jsx?$/,
-        loader: 'eslint-loader',
-        exclude: /node_modules/,
-      },
-      {
-        test: /\.jsx?$/,
-        loader: 'babel-loader',
+        test: /\.(js|jsx)$/,
+        exclude: [/node_modules/, /.test.(js|jsx)$/],
+        use: ['babel-loader'],
       },
     ],
   },
@@ -32,4 +27,7 @@ module.exports = {
       filename: './index.html',
     }),
   ],
+  devServer: {
+    historyApiFallback: true,
+  },
 };
