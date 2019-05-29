@@ -1,0 +1,15 @@
+#footer{
+  position: absolute;
+  text-align:center;
+  height: 40px;
+  padding: 15px;
+  color: black;
+  background: rgba(0, 181, 204, 1);
+  background: linear-gradient(to right, #7ecddd, #7690ac);
+  overflow: hidden;
+  width: 100%;
+  bottom: 0;
+
+}
+
+.col-12 {width: 100%;}

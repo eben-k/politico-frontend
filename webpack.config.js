@@ -10,7 +10,7 @@ module.exports = {
   },
   mode: 'development',
   resolve: {
-    extensions: ['.js', '.jsx', '.json'],
+    extensions: ['*', '.js', '.jsx', '.json'],
   },
   module: {
     rules: [
@@ -18,6 +18,10 @@ module.exports = {
         test: /\.(js|jsx)$/,
         exclude: [/node_modules/, /.test.(js|jsx)$/],
         use: ['babel-loader'],
+      },
+      {
+        test: /\.(css|scss)$/,
+        use: ['style-loader', 'css-loader'],
       },
     ],
   },

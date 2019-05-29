@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Custom Search renders without errors 1`] = `
+<Layout>
+  <div
+    className="login-form"
+  >
+    <h1
+      className="login-heading"
+    >
+      Log In
+    </h1>
+    <div
+      className="form"
+    >
+      <form
+        action=""
+        className="login"
+        onSubmit={[Function]}
+      >
+        <div>
+          <input
+            name="email"
+            onChange={[Function]}
+            placeholder="Email"
+            required={true}
+            type="text"
+          />
+        </div>
+        <div>
+          <input
+            name="password"
+            onChange={[Function]}
+            placeholder="Password"
+            required={true}
+            type="password"
+          />
+        </div>
+        <div>
+          <input
+            type="submit"
+            value="LOG IN"
+          />
+        </div>
+        <div
+          className="forgotpassword"
+        >
+          <p>
+            <a
+              href="reset.html"
+            >
+              Forgot Password?
+            </a>
+          </p>
+        </div>
+      </form>
+    </div>
+  </div>
+</Layout>
+`;
