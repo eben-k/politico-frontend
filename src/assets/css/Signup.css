@@ -1,0 +1,30 @@
+.signup-form{
+  margin: 2px auto 0 auto;
+  width: 400px;
+  height: 90vh;
+  box-shadow: 1px 1px 1px 1px #9b8b85;
+  padding: 10px 0 0 0;
+  background: white;
+}
+.signup {
+  margin: 5% auto 15% 5%;
+  width: 100%;
+ }
+ input[type="text"], input[type="password"], input[type="tel"], input[type="number"]{
+  width: 341px;
+  height: 50px;
+  margin-bottom: 26px;
+  border: none;
+  background: #f3efef;
+  padding-left: 15px;
+  outline: none;
+}
+input[type="submit"] {
+  width: 350px;
+  height: 50px;
+  border: none;
+  color: white;
+  background: #7ecddd;
+  cursor: pointer;
+  font-size: 20px;
+}

@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Custom Search renders without errors 1`] = `
+<Layout>
+  <div
+    className="signup-form"
+  >
+    <h1
+      className="login-heading"
+    >
+      Sign Up To Politico
+    </h1>
+    <div
+      className="form"
+    >
+      <form
+        action=""
+        className="signup"
+        id="form"
+        onSubmit={[Function]}
+      >
+        <div>
+          <input
+            id="firstname"
+            name="firstname"
+            onChange={[Function]}
+            placeholder="First Name"
+            type="text"
+          />
+          <div
+            className="error"
+            id="firstnameError"
+          />
+        </div>
+        <div>
+          <input
+            id="lastname"
+            name="lastname"
+            onChange={[Function]}
+            placeholder="Last Name"
+            type="text"
+          />
+          <div
+            className="error"
+            id="lastnameError"
+          />
+        </div>
+        <div>
+          <input
+            id="email"
+            name="email"
+            onChange={[Function]}
+            placeholder="Email"
+            type="text"
+          />
+          <div
+            className="error"
+            id="emailError"
+          />
+        </div>
+        <div>
+          <input
+            id="phone"
+            name="phoneNumber"
+            onChange={[Function]}
+            placeholder="Phone Number"
+            type="tel"
+          />
+          <div
+            className="error"
+            id="phoneError"
+          />
+        </div>
+        <div>
+          <input
+            id="passport"
+            name="passportUrl"
+            onChange={[Function]}
+            placeholder="PassportUrl"
+            type="text"
+          />
+          <div
+            className="error"
+            id="passportError"
+          />
+        </div>
+        <div>
+          <input
+            id="password"
+            name="password"
+            onChange={[Function]}
+            placeholder="Password"
+            type="password"
+          />
+          <div
+            className="error"
+            id="password-error"
+          />
+        </div>
+        <p>
+          By creating an account you agree to our
+           
+          <a
+            href="#"
+          >
+            Terms & Privacy
+          </a>
+          .
+        </p>
+        <div
+          className="form"
+        >
+          <div
+            id="signup-error"
+          />
+          <div
+            id="signup-success"
+          />
+        </div>
+        <div>
+          <div
+            className="loader"
+            id="spinner"
+          />
+        </div>
+        <div>
+          <input
+            id="submit-button"
+            type="submit"
+            value="SIGN UP"
+          />
+        </div>
+        <div>
+          <p>
+            Already have an account? 
+            <a
+              href="login.html"
+            >
+              Log in Here
+            </a>
+          </p>
+        </div>
+      </form>
+    </div>
+  </div>
+</Layout>
+`;
