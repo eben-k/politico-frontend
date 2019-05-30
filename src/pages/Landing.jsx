@@ -14,7 +14,7 @@ class Homepage extends Component {
     return (
       <Layout>
         <div>
-          <h1 className="catch-phrase"> Politico React App </h1>
+          <h1 className="catch-phrase"> Your Vote Always Counts!!! </h1>
         </div>
         <div id="page">
           <div className="container">
