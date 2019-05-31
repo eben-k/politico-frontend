@@ -1,0 +1,20 @@
+.main-centre{
+  justify-content: center;
+  display: flex;
+}
+.centre-piece {
+  font-size: 17rem;
+  font-weight: 100;
+  margin: 2rem 0;
+  text-align: center;
+  color: rgba(0, 181, 204, 1);
+}
+.sub-piece {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.btn-centre {
+  background-color: rgba(0, 181, 204, 1);;
+  border: .7rem solid rgba(0, 181, 204, 1);;
+  color: #fff;
+}

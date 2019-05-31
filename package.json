@@ -29,7 +29,7 @@
       "./src/setupTests.js"
     ],
     "moduleNameMapper": {
-      "^.+\\.(css|less|scss|svg)$": "<rootDir>/src/components/__mocks__/fileMock.js",
+      "^.+\\.(css|less|scss|svg|json)$": "<rootDir>/src/components/__mocks__/fileMock.js",
       "^.+\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2)$": "babel-jest"
     },
     "transform": {
@@ -101,7 +101,7 @@
     "webpack-dev-server": "^3.3.1"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.19.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "react": "^16.8.6",

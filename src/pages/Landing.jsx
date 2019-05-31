@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import Layout from '../components/presentationals/Layout';
 
@@ -21,9 +22,14 @@ class Homepage extends Component {
             <div className="card col-3">
               <img src={general} alt="Avatar" />
               <div className="card-detail-">
-                <h3>
-                  <a href="signup.html">Register to vote</a>
-                </h3>
+                <Link
+                  to="/signup"
+                  style={{
+                    textDecoration: 'none',
+                  }}
+                >
+                  <h3>Register To Vote</h3>
+                </Link>
               </div>
             </div>
           </div>
@@ -32,9 +38,14 @@ class Homepage extends Component {
             <div className="card col-3">
               <img src={vote} alt="Avatar" />
               <div className="card-detail-">
-                <h3>
-                  <a href="vote.html">Current Election</a>{' '}
-                </h3>
+                <Link
+                  to="/parties"
+                  style={{
+                    textDecoration: 'none',
+                  }}
+                >
+                  <h3>Political Parties</h3>
+                </Link>
               </div>
             </div>
           </div>
@@ -42,9 +53,14 @@ class Homepage extends Component {
             <div className="card col-3">
               <img src={vote3} alt="Avatar" />
               <div className="card-detail-">
-                <h3>
-                  <a href="#">Candidates</a>{' '}
-                </h3>
+                <Link
+                  to="/"
+                  style={{
+                    textDecoration: 'none',
+                  }}
+                >
+                  <h3>Candidates</h3>
+                </Link>
               </div>
             </div>
           </div>
@@ -52,9 +68,14 @@ class Homepage extends Component {
             <div className="card col-3">
               <img src={ballot} alt="Avatar" />
               <div className="card-detail-">
-                <h3>
-                  <a href="#">Voter Resources</a>{' '}
-                </h3>
+                <Link
+                  to="/"
+                  style={{
+                    textDecoration: 'none',
+                  }}
+                >
+                  <h3>Voter Resources</h3>
+                </Link>
               </div>
             </div>
           </div>
@@ -62,9 +83,14 @@ class Homepage extends Component {
             <div className="card col-3">
               <img src={politics2} alt="Avatar" />
               <div className="card-detail-">
-                <h3>
-                  <a href="#">Election Data</a>{' '}
-                </h3>
+                <Link
+                  to="/"
+                  style={{
+                    textDecoration: 'none',
+                  }}
+                >
+                  <h3>Election Data</h3>
+                </Link>
               </div>
             </div>
           </div>
@@ -72,9 +98,14 @@ class Homepage extends Component {
             <div className="card col-3">
               <img src={administration} alt="Avatar" />
               <div className="card-detail-">
-                <h3>
-                  <a href="card-detail-.html">Poll Workers</a>{' '}
-                </h3>
+                <Link
+                  to="/"
+                  style={{
+                    textDecoration: 'none',
+                  }}
+                >
+                  <h3>Poll Workers</h3>
+                </Link>
               </div>
             </div>
           </div>

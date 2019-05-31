@@ -1,0 +1,52 @@
+{
+  "parties": [
+    {
+      "id": 1,
+      "name": "Peoples party",
+      "hqaddress": "12 Ozumba mbadiwe street, lagos",
+      "logourl": "saluting.png",
+      "email": "amin@gmail.com",
+      "phone": "23456789"
+    },
+    {
+      "id": 2,
+      "name": "All Congress",
+      "hqaddress": "12 Ozumba mbadiwe street, lagos",
+      "logourl": "lone-star-state.jpg",
+      "email": "adin@gmail.com",
+      "phone": "23456789"
+    },
+    {
+      "id": 3,
+      "name": "The grand alliance",
+      "hqaddress": "12 Ozumba mbadiwe street, lagos",
+      "logourl": "ice.png",
+      "email": "adm@gmail.com",
+      "phone": "23456789"
+    },
+    {
+      "id": 4,
+      "name": "Conservative Party",
+      "hqaddress": "12 Ozumba mbadiwe street, lagos",
+      "logourl": "cotillion.jpg",
+      "email": "amin@gmail.com",
+      "phone": "23456789"
+    },
+    {
+      "id": 5,
+      "name": "Liberty Party",
+      "hqaddress": "12 Ozumba mbadiwe street, lagos",
+      "logourl": "liberty-bell.png",
+      "email": "adin@gmail.com",
+      "phone": "23456789"
+    },
+    {
+      "id": 6,
+      "name": "Independent Party",
+      "hqaddress": "12 Ozumba mbadiwe street, lagos",
+      "logourl": "sport.jpg",
+      "email": "adm@gmail.com",
+      "phone": "23456789"
+    }
+  ]
+}
