@@ -22,6 +22,31 @@ export const getAllParties = () => async dispatch => {
   }
 };
 
-export const initialState =
+export const initialState = {
+  isLoading: false,
+  errorResponse: [],
+  successResponse: {
+    status: '',
+  },
+  parties: [],
+  isGettingParties: true,
+};
 
-export const partyReducer = ()
+export const partyReducer = (state = initialState, action) => {
+  switch (action.type) {
+    case GET_PARTIES_SUCCESS:
+      return {
+        ...state,
+        isGettingParties: false,
+        parties: action.parties,
+      };
+    case GET_PARTIES_ERROR:
+      return {
+        ...state,
+        isGettingParties: false,
+        error: action.error,
+      };
+    default:
+      return state;
+  }
+};
