@@ -1,4 +1,4 @@
-h3 {text-align: center}
+h3, h4 {text-align: center}
 .container {width: 100%; margin: 0px auto;}
 [class*="col-"] {float: left; padding: 15px;}
 .col-1 {width: 8.33%;}
