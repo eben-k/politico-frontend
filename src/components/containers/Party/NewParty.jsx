@@ -2,24 +2,11 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
-// import PropTypes from 'prop-types'
-
 import { createPartyRequest } from '../../../store/modules/parties';
-// import Loader from '../components/presentationals/Loader/Loader';
+
+//component
 import Layout from '../../presentationals/Layout';
-// import { authenticationToken } from '../utils/helpers';
 
-// class CreateParty extends Component {
-//   componentDidMount() {
-//     const { history } = this.props;
-//     !authenticationToken() && history.push('/');
-//   }
-
-//   submitCreatePartyDetails = event => {
-//     event.preventDefault();
-//     const formData = generateFormData(event.target);
-//     return this.props.createPartyRequestHandler(formData, this.props.history);
-//   };
 export const CreateParty = ({ createPartyRequest: handlePartyRequest }) => {
   const [partyDetails, setPartyDetails] = useState({
     name: '',
@@ -42,9 +29,6 @@ export const CreateParty = ({ createPartyRequest: handlePartyRequest }) => {
 
   return (
     <Layout>
-      {/* {this.props.auth.isLoading && (
-        <Loader loader="show" text="Hi, am processing your input" />
-      )} */}
       <h1 className="login-heading">Add Party</h1>
       <div className="form">
         <form onSubmit={onSubmit} className="login" action="">
@@ -105,13 +89,7 @@ export const CreateParty = ({ createPartyRequest: handlePartyRequest }) => {
 CreateParty.propTypes = {
   auth: PropTypes.object,
   url: PropTypes.string,
-  // poweredby: PropTypes.shape({
-  //   url: PropTypes.string,
-  //   name: PropTypes.string,
-  // }),
   createPartyRequest: PropTypes.func.isRequired,
-  // location: PropTypes.object,
-  // history: PropTypes.object,
 };
 const mapStateToProps = state => ({
   isLoading: state.auth.isLoading,
