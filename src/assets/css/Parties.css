@@ -1,0 +1,13 @@
+.main-page{
+  width: 85%; margin: 0px auto;
+}
+.btn-right {
+  display: inline-block;
+  background-color: rgba(0, 181, 204, 1);;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 12px 23px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.btn-right:hover {background-color:black}
