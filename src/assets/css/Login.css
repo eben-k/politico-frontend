@@ -23,7 +23,7 @@
   display: grid;
   justify-content: center;
 }
-input[type="text"], input[type="password"], input[type="tel"], input[type="number"]{
+input[type="text"], input[type="password"], input[type="tel"], input[type="number"], input[type="email"] {
   width: 341px;
   height: 50px;
   margin-bottom: 26px;

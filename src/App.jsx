@@ -7,6 +7,7 @@ import Login from './components/containers/Login/Login';
 import Signup from './components/containers/Signup/Signup';
 import Parties from './pages/Parties';
 import NotFound from './pages/NotFound';
+import CreateParty from './components/containers/Party/NewParty';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Route exact path="/login" component={Login} />
       <Route exact path="/signup" component={Signup} />
       <Route exact path="/parties" component={Parties} />
+      <Route exact path="/createparty" component={CreateParty} />
       <Route component={NotFound} />
     </Switch>
   );
