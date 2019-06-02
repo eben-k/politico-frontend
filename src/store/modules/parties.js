@@ -54,10 +54,7 @@ export const createPartyRequest = partyDetails => {
       const { data } = await createParty(partyDetails);
       dispatch(createPartySuccess(data.data[0]));
       swal('Party Registered Successfully', 'Success');
-      // history.push('/account');
     } catch (error) {
-      // eslint-disable-next-line no-console
-      console.log(error);
       swal(error.response.data.error, 'Error');
       const { data } = error.response;
       dispatch(createPartyError([data.error]));
